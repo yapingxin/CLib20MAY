@@ -1,0 +1,18 @@
+﻿  LOGS.c
+d:\devspace\5vxy2020cpdl\libmodify\ilog3-dev\code\ilog3\src\logs.c(119): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strdup. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\string.h(552): note: see declaration of 'strdup'
+  LOG.c
+d:\devspace\5vxy2020cpdl\libmodify\ilog3-dev\code\ilog3\src\log.c(171): warning C4244: 'initializing': conversion from '__int64' to 'int', possible loss of data
+d:\devspace\5vxy2020cpdl\libmodify\ilog3-dev\code\ilog3\src\log.c(603): warning C4267: '=': conversion from 'size_t' to 'long', possible loss of data
+d:\devspace\5vxy2020cpdl\libmodify\ilog3-dev\code\ilog3\src\log.c(614): warning C4244: '=': conversion from '__int64' to 'long', possible loss of data
+d:\devspace\5vxy2020cpdl\libmodify\ilog3-dev\code\ilog3\src\log.c(620): warning C4267: '=': conversion from 'size_t' to 'long', possible loss of data
+d:\devspace\5vxy2020cpdl\libmodify\ilog3-dev\code\ilog3\src\log.c(947): warning C4244: '=': conversion from 'time_t' to 'long', possible loss of data
+d:\devspace\5vxy2020cpdl\libmodify\ilog3-dev\code\ilog3\src\log.c(968): warning C4244: '=': conversion from 'time_t' to 'long', possible loss of data
+d:\devspace\5vxy2020cpdl\libmodify\ilog3-dev\code\ilog3\src\log.c(1374): warning C4996: 'unlink': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _unlink. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\corecrt_io.h(551): note: see declaration of 'unlink'
+d:\devspace\5vxy2020cpdl\libmodify\ilog3-dev\code\ilog3\src\log.c(1421): warning C4244: '=': conversion from 'time_t' to 'long', possible loss of data
+d:\devspace\5vxy2020cpdl\libmodify\ilog3-dev\code\ilog3\src\log.c(1484): warning C4244: '=': conversion from 'time_t' to 'long', possible loss of data
+d:\devspace\5vxy2020cpdl\libmodify\ilog3-dev\code\ilog3\src\log.c(2717): warning C4267: '=': conversion from 'size_t' to 'long', possible loss of data
+  Generating Code...
+  iLog3.vcxproj -> D:\DevSpace\5VXY2020CPDL\LibModify\iLog3-Dev\Build\Win32\Libraries\x64\Debug\iLog3.dll
+  iLog3.vcxproj -> D:\DevSpace\5VXY2020CPDL\LibModify\iLog3-Dev\Build\Win32\Libraries\x64\Debug\iLog3.pdb (Full PDB)

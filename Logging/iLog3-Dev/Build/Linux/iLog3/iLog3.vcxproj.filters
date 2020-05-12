@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{e08fd81b-39d7-4506-a3fd-b49db1b187ce}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\Code\iLOG3\src\LOG.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Code\iLOG3\src\LOGC.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Code\iLOG3\src\LOGS.c">
+      <Filter>src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\Code\iLOG3\src\LOG.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Code\iLOG3\src\LOGC.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Code\iLOG3\src\LOGS.h">
+      <Filter>src</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

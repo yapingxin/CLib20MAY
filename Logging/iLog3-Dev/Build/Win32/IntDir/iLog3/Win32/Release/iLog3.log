@@ -1,0 +1,19 @@
+﻿  LOG.c
+..\..\..\Code\iLOG3\src\LOG.c(947): warning C4244: '=': conversion from 'time_t' to 'long', possible loss of data
+..\..\..\Code\iLOG3\src\LOG.c(968): warning C4244: '=': conversion from 'time_t' to 'long', possible loss of data
+..\..\..\Code\iLOG3\src\LOG.c(1374): warning C4996: 'unlink': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _unlink. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\corecrt_io.h(551): note: see declaration of 'unlink'
+..\..\..\Code\iLOG3\src\LOG.c(1421): warning C4244: '=': conversion from 'time_t' to 'long', possible loss of data
+..\..\..\Code\iLOG3\src\LOG.c(1484): warning C4244: '=': conversion from 'time_t' to 'long', possible loss of data
+  LOGC.c
+  LOGS.c
+..\..\..\Code\iLOG3\src\LOGS.c(119): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strdup. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\string.h(552): note: see declaration of 'strdup'
+  stdafx.c
+  dllmain.c
+     Creating library D:\DevSpace\5VXY2020CPDL\LibModify\iLog3-Dev\Build\Win32\Libraries\Win32\Release\iLog3.lib and object D:\DevSpace\5VXY2020CPDL\LibModify\iLog3-Dev\Build\Win32\Libraries\Win32\Release\iLog3.exp
+LINK : warning LNK4098: defaultlib 'LIBCMT' conflicts with use of other libs; use /NODEFAULTLIB:library
+  Generating code
+  Finished generating code
+  iLog3.vcxproj -> D:\DevSpace\5VXY2020CPDL\LibModify\iLog3-Dev\Build\Win32\Libraries\Win32\Release\iLog3.dll
+  iLog3.vcxproj -> D:\DevSpace\5VXY2020CPDL\LibModify\iLog3-Dev\Build\Win32\Libraries\Win32\Release\iLog3.pdb (Full PDB)

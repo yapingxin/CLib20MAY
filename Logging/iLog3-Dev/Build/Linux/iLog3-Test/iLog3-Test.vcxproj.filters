@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Code">
+      <UniqueIdentifier>{a4d1fb9e-5e03-47dd-98d3-3f42f4bf9e11}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Code\iLOG3">
+      <UniqueIdentifier>{6dce5b00-4507-49ad-b6eb-b10388f6be4b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Code\iLOG3\include">
+      <UniqueIdentifier>{32477276-9a48-4bd4-a229-7b25a1ad2dd9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Code\Utilities">
+      <UniqueIdentifier>{5c1c8c7c-b2b7-4e52-a01f-b4f8f51b9610}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Code\Utilities\TestCode">
+      <UniqueIdentifier>{39e2ec73-3682-4656-900f-fed01ac582f2}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\Code\iLOG3\include\LOG.h">
+      <Filter>Code\iLOG3\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Code\iLOG3\include\LOGC.h">
+      <Filter>Code\iLOG3\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Code\iLOG3\include\LOGS.h">
+      <Filter>Code\iLOG3\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Code\Utilities\iLog3-Test\TestCode\TC01_Basic_INFOLOGG.h">
+      <Filter>Code\Utilities\TestCode</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Code\Utilities\iLog3-Test\TestCode\TC02_Basic_MultiOutput.h">
+      <Filter>Code\Utilities\TestCode</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\Code\Utilities\iLog3-Test\main.c">
+      <Filter>Code\Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Code\Utilities\iLog3-Test\TestCode\TC01_Basic_INFOLOGG.c">
+      <Filter>Code\Utilities\TestCode</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Code\Utilities\iLog3-Test\TestCode\TC02_Basic_MultiOutput.c">
+      <Filter>Code\Utilities\TestCode</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

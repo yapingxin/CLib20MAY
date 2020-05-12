@@ -1,0 +1,38 @@
+iLOG3_Root
+D:\DevSpace\5VXY2020CPDL\LibModify\iLog3-Dev\Code\iLOG3
+
+
+======================
+Notes: Win32 Project
+======================
+
+$(SolutionDir)Win32\Output\$(Platform)\$(Configuration)\
+$(SolutionDir)Win32\IntDir\$(ProjectName)\$(Platform)\$(Configuration)\
+
+$(SolutionDir)Win32\Libraries\$(Platform)\$(Configuration)\
+$(SolutionDir)Win32\IntDir\$(ProjectName)\$(Platform)\$(Configuration)\
+
+$(iLOG3_Root)\include
+
+$(iLOG3_Root)\DLL\$(Platform)\$(Configuration)
+iLog3.lib
+
+copy $(iLOG3_Root)\DLL\$(Platform)\$(Configuration)\iLog3.dll $(TargetDir)
+
+======================
+Notes: Linux Project
+======================
+
+$(RemoteRootDir)/Output/$(Platform)/$(Configuration)/
+$(RemoteRootDir)/IntDir/$(ProjectName)/$(Platform)/$(Configuration)/
+
+$(RemoteRootDir)/Output/$(Platform)/$(Configuration)/
+$(RemoteRootDir)/IntDir/$(ProjectName)/$(Platform)/$(Configuration)/
+
+.so
+/home/yapingxin/projects
+
+$(RemoteProjectDir)
+$(RemoteProjectDir)/Code
+..\..\..\..\..\Code
+
