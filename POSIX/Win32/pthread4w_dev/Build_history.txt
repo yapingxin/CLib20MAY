@@ -1,0 +1,119 @@
+pthreads4w-code-v3.0.0_Build_01
+
+under: VS2015 x64 Native Tools Command Prompt:
+
+setenv /x64 /2003 /Release
+
+nmake realclean VC EXTRAVERSION="-x64" BUILD=debug TARGET_CPU=X64
+
+
+'rc' is not recognized as an internal or external command,
+
+VS 2010 and CMake: 'rc' is not recognized as an internal or external command
+https://stackoverflow.com/questions/42190568/vs-2010-and-cmake-rc-is-not-recognized-as-an-internal-or-external-command
+
+https://developer.microsoft.com/en-us/windows/downloads/windows-10-sdk
+
+
+Supported operating systems
+
+    Universal Windows Platform (UWP) app development
+        Windows 10 version 1507 or higher: Home, Professional, Education, and Enterprise (LTSB and S are not supported)
+        Windows Server 2019, Windows Server 2016 and Windows Server 2012 R2 (Command line only)
+
+    Win32 app development
+        Windows 10 version 1507 or higher
+        Windows Server 2016: Standard and Datacenter
+        Windows 8.1
+        Windows Server 2012 R2
+        Windows 7 SP1
+
+(Not all tools are supported on earlier operating systems)
+
+
+rc:
+C:\Program Files (x86)\Microsoft SDKs\Windows\v7.1A\Bin
+
+
+
+pthreads4w-code-v3.0.0_x64_Debug
+
+nmake realclean VC BUILD=debug TARGET_CPU=X64
+
+pthreads4w-code-v3.0.0_x64_Release
+
+nmake realclean VC BUILD=release TARGET_CPU=X64
+
+pthreads4w-code-v3.0.0_Win32_Debug
+
+nmake realclean VC BUILD=debug
+
+pthreads4w-code-v3.0.0_Win32_Release
+
+nmake realclean VC BUILD=release
+
+
+
+
+Reading
+
+2.3 Building from the Command Line with nmake
+https://docs.roguewave.com/stingray/11/html/gettingstartedug/2-3.html
+
+nmake、cmake、Visual Studio编译libevent
+http://www.aiuxian.com/article/p-1968252.html
+
+Error while building openssl: 'rc' is not recognized as an internal or external command
+https://github.com/Microsoft/vcpkg/issues/1689
+
+Update for Universal C Runtime in Windows
+https://support.microsoft.com/en-us/help/2999226/update-for-universal-c-runtime-in-windows
+
+https://stackoverflow.com/questions/42190568/vs-2010-and-cmake-rc-is-not-recognized-as-an-internal-or-external-command
+
+
+
+Root reference:
+indigo-astronomy/pthreads4w
+https://github.com/indigo-astronomy/pthreads4w
+
+Building applications
+---------------------
+
+The files you will need for your application build are:
+
+The four header files:
+	_ptw32.h
+	pthread.h
+	semaphore.h
+	sched.h
+
+The DLL library files that you built:
+	pthread*.dll
+	plus the matching *.lib (MSVS) or *.a file (GNU)
+
+or, the static link library that you built:
+	pthread*.lib (MSVS) or libpthread*.a (GNU)
+
+Place them in the appropriate directories for your build, which may be the
+standard compiler locations or, locations specific to your project (you
+might have a separate third-party dependency tree for example).
+
+
+POSIX Threads for Windows
+https://sourceforge.net/projects/pthreads4w/
+https://sourceforge.net/p/pthreads4w/wiki/Home/
+
+
+pthreads 的基本用法
+https://www.ibm.com/developerworks/cn/linux/l-pthred/index.html
+
+高性能计算的线程模型：Pthreads 还是 OpenMP？
+https://software.intel.com/zh-cn/articles/threading-models-for-high-performance-computing-pthreads-or-openmp/
+
+C 語言 pthread 多執行緒平行化程式設計入門教學與範例
+2018/03/25 0 Comments	
+https://blog.gtwang.org/programming/pthread-multithreading-programming-in-c-tutorial/
+
+
+
