@@ -1,0 +1,14 @@
+﻿  mxml-attr.c
+  mxml-entity.c
+  mxml-file.c
+  mxml-get.c
+  mxml-index.c
+  mxml-node.c
+  mxml-private.c
+  mxml-search.c
+  mxml-set.c
+  mxml-string.c
+  Generating Code...
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(1189,5): warning MSB8012: TargetPath(D:\DevSpace\5VXY2020CPDL\LibDev\MiniXML\mxml-3.1\vcnet\Release\x64\mxml1\mxml1.dll) does not match the Linker's OutputFile property value (D:\DevSpace\5VXY2020CPDL\LibDev\MiniXML\mxml-3.1\vcnet\Release\x64\mxml1.dll). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+     Creating library Release\x64\\mxml1.lib and object Release\x64\\mxml1.exp
+  mxml1.vcxproj -> D:\DevSpace\5VXY2020CPDL\LibDev\MiniXML\mxml-3.1\vcnet\Release\x64\mxml1\mxml1.dll

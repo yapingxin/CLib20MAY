@@ -1,0 +1,70 @@
+michaelrsweet/mxml 
+https://github.com/michaelrsweet/mxml
+
+https://github.com/michaelrsweet/mxml.git
+
+Tiny XML library. 
+https://www.msweet.org/mxml
+
+Download version 3.1:
+https://github.com/michaelrsweet/mxml/releases
+
+How to build:
+https://github.com/michaelrsweet/mxml
+
+================================================
+
+For Linux:
+upload mxml-3.1.tar.gz at ~/DevSpace/LibDev
+
+tar -zxvf mxml-3.1.tar.gz
+cd mxml-3.1
+./configure --enable-threads --enable-shared
+make
+sudo make install
+
+Build Log on Linux: mxml-3.1-build-shared-library-log.txt
+
+yapingxin@vd-venus:~/DevSpace/LibDev/mxml-3.1$ sudo make install
+[sudo] password for yapingxin:
+Installing libmxml.so to /usr/local/lib...
+Installing libmxml.a to /usr/local/lib...
+Installing documentation in /usr/local/share/doc/mxml...
+Installing header files in /usr/local/include...
+Installing pkgconfig files in /usr/local/lib/pkgconfig...
+Installing man pages in /usr/local/share/man...
+yapingxin@vd-venus:~/DevSpace/LibDev/mxml-3.1$
+
+in /usr/local/lib
+libmxml.a  libmxml.so  libmxml.so.1  libmxml.so.1.6
+in /usr/local/include/
+mxml.h
+
+
+
+
+
+# default library configuration
+/usr/local/lib
+
+
+
+For Windows:
+
+1. Use VC++2015 to open vcnet/mxml.sln
+2. Configuration Properties | General Platform Toolset: Visual Studio 2019 (v142)
+3. Configuration Properties | General Configuration Type: Dynamic Library (.dll)
+4. Configuration Properties | General Character Set: Use Unicode Character Set
+5. Configuration Properties | General Output Directory: 
+$(SolutionDir)Win32\Output\$(Platform)\$(Configuration)\
+6. Configuration Properties | General Intermediate Directory: 
+$(SolutionDir)Win32\IntDir\$(ProjectName)\$(Platform)\$(Configuration)\
+7. Target Name: From $(ProjectName) change to: mxml
+
+
+$(SolutionDir)Output\$(Platform)\$(Configuration)\
+$(SolutionDir)IntDir\$(ProjectName)\$(Platform)\$(Configuration)\
+
+
+
+

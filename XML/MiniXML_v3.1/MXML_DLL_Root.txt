@@ -1,0 +1,2 @@
+MXML_DLL_Root
+D:\DevSpace\5VXY2020CPDL\LibDev\MiniXML_v3.1

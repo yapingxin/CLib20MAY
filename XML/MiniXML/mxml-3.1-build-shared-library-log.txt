@@ -1,0 +1,181 @@
+
+yapingxin@vd-venus:~/Output/x64/Debug$ cd ~/
+yapingxin@vd-venus:~$ ls
+Desktop  Documents  Downloads  IntDir  Music  Output  Pictures  projects  Public  snap  Templates  Videos
+yapingxin@vd-venus:~$ mkdir DevSpace
+yapingxin@vd-venus:~$ cd DevSpace/
+yapingxin@vd-venus:~/DevSpace$ mkdir LibDev
+yapingxin@vd-venus:~/DevSpace$ cd LibDev/
+yapingxin@vd-venus:~/DevSpace/LibDev$ ls
+mxml-3.1.tar.gz
+yapingxin@vd-venus:~/DevSpace/LibDev$ chmod +x mxml-3.1.tar.gz
+yapingxin@vd-venus:~/DevSpace/LibDev$ ls
+mxml-3.1.tar.gz
+yapingxin@vd-venus:~/DevSpace/LibDev$ tar -zxvf mxml-3.1.tar.gz
+mxml-3.1/
+mxml-3.1/CHANGES.md
+mxml-3.1/LICENSE
+mxml-3.1/Makefile.in
+mxml-3.1/NOTICE
+mxml-3.1/README.md
+mxml-3.1/config.guess
+mxml-3.1/config.h.in
+mxml-3.1/config.sub
+mxml-3.1/configure
+mxml-3.1/configure.ac
+mxml-3.1/doc/
+mxml-3.1/doc/body.man
+mxml-3.1/doc/body.md
+mxml-3.1/doc/footer.man
+mxml-3.1/doc/mxml-cover.jpg
+mxml-3.1/doc/mxml-cover.opacity
+mxml-3.1/doc/mxml-cover.png
+mxml-3.1/doc/mxml.3
+mxml-3.1/doc/mxml.epub
+mxml-3.1/doc/mxml.html
+mxml-3.1/doc/mxml.opacity
+mxml-3.1/doc/mxml.png
+mxml-3.1/install-sh
+mxml-3.1/mxml-attr.c
+mxml-3.1/mxml-entity.c
+mxml-3.1/mxml-file.c
+mxml-3.1/mxml-get.c
+mxml-3.1/mxml-index.c
+mxml-3.1/mxml-node.c
+mxml-3.1/mxml-private.c
+mxml-3.1/mxml-private.h
+mxml-3.1/mxml-search.c
+mxml-3.1/mxml-set.c
+mxml-3.1/mxml-string.c
+mxml-3.1/mxml.h
+mxml-3.1/mxml.pc.in
+mxml-3.1/mxml.spec
+mxml-3.1/test.xml
+mxml-3.1/test/
+mxml-3.1/test/class.cxx
+mxml-3.1/test/dotest.sh
+mxml-3.1/test/enum.cxx
+mxml-3.1/test/function.cxx
+mxml-3.1/test/functype.cxx
+mxml-3.1/test/struct.cxx
+mxml-3.1/test/type.cxx
+mxml-3.1/testmxml.c
+mxml-3.1/vcnet/
+mxml-3.1/vcnet/config.h
+mxml-3.1/vcnet/mxml.sln
+mxml-3.1/vcnet/mxml1.def
+mxml-3.1/vcnet/mxml1.vcxproj
+mxml-3.1/vcnet/mxml1.vcxproj.filters
+mxml-3.1/vcnet/mxml1.vcxproj.user
+mxml-3.1/vcnet/mxmlstat.vcxproj
+mxml-3.1/vcnet/mxmlstat.vcxproj.filters
+mxml-3.1/vcnet/mxmlstat.vcxproj.user
+mxml-3.1/vcnet/packages.config
+mxml-3.1/vcnet/testmxml.vcxproj
+mxml-3.1/vcnet/testmxml.vcxproj.filters
+mxml-3.1/vcnet/testmxml.vcxproj.user
+mxml-3.1/xcode/
+mxml-3.1/xcode/config.h
+mxml-3.1/xcode/mxml.xcodeproj/
+mxml-3.1/xcode/mxml.xcodeproj/project.pbxproj
+
+yapingxin@vd-venus:~/DevSpace/LibDev$ ls
+mxml-3.1  mxml-3.1.tar.gz
+
+yapingxin@vd-venus:~/DevSpace/LibDev$ cd mxml-3.1
+
+
+
+
+yapingxin@vd-venus:~/DevSpace/LibDev/mxml-3.1$ ./configure --enable-threads --enable-shared
+checking build system type... x86_64-unknown-linux-gnu
+checking host system type... x86_64-unknown-linux-gnu
+checking for gcc... gcc
+checking whether the C compiler works... yes
+checking for C compiler default output file name... a.out
+checking for suffix of executables...
+checking whether we are cross compiling... no
+checking for suffix of object files... o
+checking whether we are using the GNU C compiler... yes
+checking whether gcc accepts -g... yes
+checking for gcc option to accept ISO C89... none needed
+checking for g++... g++
+checking whether we are using the GNU C++ compiler... yes
+checking whether g++ accepts -g... yes
+checking for a BSD-compatible install... /usr/bin/install -c
+checking for ranlib... ranlib
+checking for ar... ar
+checking for cp... /usr/bin/cp
+checking for ldconfig... /usr/sbin/ldconfig
+checking for ln... /usr/bin/ln
+checking for mkdir... /usr/bin/mkdir
+checking for rm... /usr/bin/rm
+checking for inline... inline
+checking for strdup... yes
+checking for strlcat... no
+checking for strlcpy... no
+checking for snprintf... yes
+checking for vasprintf... yes
+checking for vsnprintf... yes
+checking for long long int... yes
+checking how to run the C preprocessor... gcc -E
+checking for grep that handles long lines and -e... /usr/bin/grep
+checking for egrep... /usr/bin/grep -E
+checking for ANSI C header files... yes
+checking for sys/types.h... yes
+checking for sys/stat.h... yes
+checking for stdlib.h... yes
+checking for string.h... yes
+checking for memory.h... yes
+checking for strings.h... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for unistd.h... yes
+checking pthread.h usability... yes
+checking pthread.h presence... yes
+checking for pthread.h... yes
+checking for pthread_create using -lpthreads... no
+checking for pthread_create using -lpthread... yes
+checking for shared library support... yes
+configure: creating ./config.status
+config.status: creating Makefile
+config.status: creating mxml.pc
+config.status: creating config.h
+yapingxin@vd-venus:~/DevSpace/LibDev/mxml-3.1$ make
+Compiling mxml-attr.c
+Compiling mxml-entity.c
+Compiling mxml-file.c
+Compiling mxml-get.c
+Compiling mxml-index.c
+Compiling mxml-node.c
+Compiling mxml-search.c
+Compiling mxml-set.c
+Compiling mxml-private.c
+Compiling mxml-string.c
+Creating libmxml.so.1.6...
+Creating libmxml.a...
+a - mxml-attr.o
+a - mxml-entity.o
+a - mxml-file.o
+a - mxml-get.o
+a - mxml-index.o
+a - mxml-node.o
+a - mxml-search.o
+a - mxml-set.o
+a - mxml-private.o
+a - mxml-string.o
+Compiling testmxml.c
+Linking testmxml...
+Testing library...
+Stdio file test passed!
+String test passed!
+File descriptor test passed!
+yapingxin@vd-venus:~/DevSpace/LibDev/mxml-3.1$ sudo make install
+[sudo] password for yapingxin:
+Installing libmxml.so to /usr/local/lib...
+Installing libmxml.a to /usr/local/lib...
+Installing documentation in /usr/local/share/doc/mxml...
+Installing header files in /usr/local/include...
+Installing pkgconfig files in /usr/local/lib/pkgconfig...
+Installing man pages in /usr/local/share/man...
+yapingxin@vd-venus:~/DevSpace/LibDev/mxml-3.1$

@@ -1,0 +1,16 @@
+﻿  mxml-string.c
+  mxml-set.c
+  mxml-search.c
+  mxml-private.c
+  mxml-node.c
+  mxml-index.c
+  mxml-get.c
+  mxml-file.c
+  mxml-entity.c
+  mxml-attr.c
+  Generating Code...
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(1189,5): warning MSB8012: TargetPath(D:\DevSpace\5VXY2020CPDL\LibDev\MiniXML\mxml-3.1\vcnet\Debug\Win32\mxml1\mxml1.dll) does not match the Linker's OutputFile property value (D:\DevSpace\5VXY2020CPDL\LibDev\MiniXML\mxml-3.1\vcnet\Debug\Win32\mxml1.dll). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+mxml-attr.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/SAFESEH' specification
+     Creating library Debug\Win32\\mxml1.lib and object Debug\Win32\\mxml1.exp
+  mxml1.vcxproj -> D:\DevSpace\5VXY2020CPDL\LibDev\MiniXML\mxml-3.1\vcnet\Debug\Win32\mxml1\mxml1.dll
+  mxml1.vcxproj -> Debug\Win32\mxml1\mxml1.pdb (Full PDB)
