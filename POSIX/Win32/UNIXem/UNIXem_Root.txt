@@ -1,0 +1,40 @@
+======
+UNIXem
+======
+D:\DevSpace\5VXY2020CPDL\LibModify\UNIXem
+
+UNIXem_Root
+D:\DevSpace\5VXY2020CPDL\Lib_Build\UNIXem
+
+$(UNIXem_Root)\include
+
+
+====
+zlog
+====
+D:\DevSpace\5VXY2020CPDL\LibDev\zlog-dir\WinZlog\zlog
+
+$(UNIXem_Root)\lib\$(Platform)\$(Configuration)\
+$(PTW32_ROOT)\DLL\$(Platform)\$(Configuration)
+
+pthreadVC3.lib
+unixem.lib
+
+Output:
+D:\DevSpace\5VXY2020CPDL\LibDev\zlog-dir\WinZlog\zlog\Output
+
+
+
+yapingxin@vd-venus:~/DevSpace/LibDev/zlog-1.2.14$ sudo make install
+[sudo] password for yapingxin:
+cd src && make install
+make[1]: Entering directory '/home/yapingxin/DevSpace/LibDev/zlog-1.2.14/src'
+mkdir -p /usr/local/include /usr/local/lib /usr/local/bin
+cp -a zlog.h /usr/local/include
+cp -a zlog-chk-conf /usr/local/bin
+cp -a libzlog.so /usr/local/lib/libzlog.so.1.2
+cd /usr/local/lib && ln -sf libzlog.so.1.2 libzlog.so.1
+cd /usr/local/lib && ln -sf libzlog.so.1 libzlog.so
+cp -a libzlog.a /usr/local/lib
+make[1]: Leaving directory '/home/yapingxin/DevSpace/LibDev/zlog-1.2.14/src'
+
